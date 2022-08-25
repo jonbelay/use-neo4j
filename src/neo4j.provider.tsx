@@ -115,9 +115,9 @@ export const Neo4jProvider: React.FC<Neo4jProviderProps> = (props: Neo4jProvider
 
 
     // Wait for effect to verify driver connectivity
-    if ( authenticating ) {
-        return(<div className="authenticating"></div>)
-    }
+//    if ( authenticating ) {
+//        return(<div className="authenticating"></div>)
+//    }
 
     if ( !driver ) {
         const { title, logo, details, footer } = props;
